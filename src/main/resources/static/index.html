@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello World!</title>
+</head>
+<body>
+
+	<h1>Hello World from Spring Boot!</h1>
+
+	Comment out Thymeleaf dependency in pom.xml, restart and click here to get 405 error. 
+	<form action="/postTest" method="POST">
+		<input type="hidden" name="test" value="test"> <input
+			type="submit" value="Test Post">
+	</form>
+
+	<br>
+	With Thymeleaf dependency in pom.xml, restart and click here to get it working ???
+	<form action="/postTest2" method="POST">
+		<input type="hidden" name="test" value="test"> <input
+			type="submit" value="Test Post">
+	</form>
+
+</body>
+</html>
